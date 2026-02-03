@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+
+    <link 
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+        .hero {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-nNsYNWtKjSxj6h56KmDXmQ9zJWSKAOwwP_itCfzB_Q&s=10);
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .overlay {
+            background-color: rgba(o, 0, 0, 0.6);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+<!-- 1. Hero-->
+    <div class="hero">
+    <div 
+        class="overlay d-flex justify-content-center align-items-center text-center"
+    >
+        <div class="text-white">
+            <h1 class="display-5 fw-bold">Selamat Datang!</h1>
+            <p class="fs-5">Belajar Bootstrao jadi mudah dan menyenangkan.</p>
+            <button class="btn btn-primary">Lihat Tabel</button>
+            <button class="btn btn-outline-light"> Daftar</button>
+        </div>
+    </div>
+    </div>
+
+<!-- 2. Breadcrumb -->
+<div class="container mt-4 img-thumbnail">
+  <nav class="container mt-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Dasboard</a></li>
+            <li class="breadcrumb-item"><a href="#" >Visi Misi</a></li>
+               <li class="breadcrumb-item"><a href="#">Jurusan</a></li>
+                <li class="breadcrumb-item active">Data Siswa 2026</li>
+                </ol>
+        </nav>
+    </div>
+
+<!-- 3. Card -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4 fw-bold">Visi & Misi Lembaga</h2>
+        <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100 border-primary">
+                <div class="card-header bg-primary text-white text-center fw-bold">
+                    VISI SEKOLAH
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-center p-4">
+                    <h3 class="text-center lh-base italic-text">
+                        "Menciptakan Insan Bertaqwa yang Solutif: Santun, Optimis, Lugas, Terampil dan Inovatif, Guna Menjunjung Martabat Bangsa."
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+  <div class="col-md-6">
+   <div class="card h-100 border-dark">
+        <div class="card-header bg-dark text-white text-center fw-bold">
+                    MISI SEKOLAH
+         </div>
+     <div class="card-body">
+         <ul class="list-group list-group-flush">
+           <li class="list-group-item d-flex align-items-start border-bottom py-3">
+               <span class="badge bg-primary rounded-circle me-3">01</span>
+                <div>Excelent; Meningkatkan pelayanan pada siswa dengan mengedepankan pembelajaran yang berpihak pada siswa</div>
+             </li>
+   <li class="list-group-item d-flex align-items-start border-bottom py-3">
+     <span class="badge bg-primary rounded-circle me-3">02</span>
+        <div>Smart; Mengembangkan keunggulan dengan mengedepankan sikap mandiri, kreatif dan kolaboratif sesuai dengan profil pelajar pancasila</div>
+       </li>
+    <li class="list-group-item d-flex align-items-start border-bottom py-3">
+       <span class="badge bg-primary rounded-circle me-3">03</span>
+          <div>Attainable; Mewujudkan sekolah sebagai wadah kreasi, inovasi untuk pengembangan ilmu pengetahuan dan teknologi</div>
+      </li>
+     <li class="list-group-item d-flex align-items-start border-bottom py-3">
+        <span class="badge bg-primary rounded-circle me-3">03</span>
+            <div>Attainable; Mewujudkan sekolah sebagai wadah kreasi, inovasi untuk pengembangan ilmu pengetahuan dan teknologi</div>
+         </li>
+      <li class="list-group-item d-flex align-items-start border-bottom py-3">
+        <span class="badge bg-primary rounded-circle me-3">03</span>
+              <div>Attainable; Mewujudkan sekolah sebagai wadah kreasi, inovasi untuk pengembangan ilmu pengetahuan dan teknologi</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 4. Card Group-->
+ <div class="container my-5">
+    <h3 class="text-center mb-4">Ringkasan Angkatan per Jurusan</h3>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+            <div class="card h-100  shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMb6wqVoo6Rzhjh82BawOZyEGmd71azqg5bk-agA2vw&s=10" class="card-img-top mx-auto d-block"
+                style="width:200px;
+                 height:150px" 
+                 alt="PPLG">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">PPLG</h5>
+                    <p class="card-text small">Pengembangan Perangkat Lunak & Gim. Fokus pada coding web, dan mobile apps.</p>
+                    <p class="mb-0 small"><strong>Siswa:</strong> 120</p>
+                    <p class="small"><strong>Lab:</strong> 4 Ruangan</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ3jLmAM_i63sDSbKGiCgjS2_oe4BeAKt9FSJ14MbKqg&s=10" class="card-img-top mx-auto d-block" 
+                style="width:200px;
+                 height:150px" 
+                alt="TJKT">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">TJKT</h5>
+                    <p class="card-text small">Teknik Jaringan Komputer & Telekomunikasi. Ahli dalam infrastruktur server dan jaringan.</p>
+                    <p class="mb-0 small"><strong>Siswa:</strong> 115</p>
+                    <p class="small"><strong>Lab:</strong> 3 Ruangan</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkyZkF_GlNt6tnBIqqZ7J4p2OYE_cUtbv8hw2Ljc9hUg&s=10" class="card-img-top mx-auto d-block"
+                style="width:200px;
+                height:150px"
+                alt="KULINER">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">KULINER</h5>
+                    <p class="card-text small">Seni Kuliner & Tata Boga. Menciptakan tenaga profesional di bidang hospitality dan masakan.</p>
+                    <p class="mb-0 small"><strong>Siswa:</strong> 115</p>
+                    <p class="small"><strong>Dapur:</strong> 2 Standar Industri</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQvrCYpVTyUhcAWiWkkRG_zVPp6ktFMPJ2BXfnVBmHZg&s=10" class="card-img-top mx-auto d-block"
+                style="width:200px;
+                 height:150px" 
+                 alt="BUSANA">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">BUSANA</h5>
+                    <p class="card-text small">Desain dan Produksi Busana. Fokus pada kreativitas fashion dan teknik menjahit modern.</p>
+                    <p class="mb-0 small"><strong>Siswa:</strong> 90</p>
+                    <p class="small"><strong>Studio:</strong> 2 Workshop</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5gdRZp514F474vGXcp_xkW9WHG4aW6NkITLz2TL4JoQ&s=10" class="card-img-top mx-auto d-block" style="width:200px;
+                 height:150px"
+                 alt="OTOMOTIF">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">OTOMOTIF</h5>
+                    <p class="card-text small">Teknik Kendaraan Ringan. Pelajari mesin, kelistrikan mobil, dan manajemen bengkel.</p>
+                    <p class="mb-0 small"><strong>Siswa:</strong> 130</p>
+                    <p class="small"><strong>Bengkel:</strong> 1 Unit Produksi</p>
+                </div>
+            </div>
+        </div>
+        
+         <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://smkn1tengaran.sch.id/wp-content/uploads/2019/08/Logo-TSM.png" class="card-img-top mx-auto d-block" style="width:200px;
+                 height:150px"
+                 alt="OTOMOTIF">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">TEKNIK SEPEDA MOTOR</h5>
+                    <p class="card-text small">Teknik Sepeda Motot. Pelajari mesin, kelistrikan mmotor, dan manajemen bengkel.</p>
+                    <p class="mb-0 small"><strong>Siswa:</strong> 130</p>
+                    <p class="small"><strong>Bengkel:</strong> 1 Unit Produksi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 5. Table, Badges, Pagination -->
+
+  <h2 class="text-center">Tabel Data Siswa</h2>
+  
+  
+    <p> Kelola status dan administrasi siswa secara real-time</p>
+
+ <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong>Info!</strong> Klik tombol <strong>Edit</strong> untuk mengubah data profil siswa
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+</div>
+  
+  <table class="table table-bordered table-striped table-hover ">
+   <div class="card-shadow">
+   <thead>
+      <tr class="table-dark">
+        <th>No</th>
+        <th>Foto</th>
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>Status</th>
+        <th>Aksi</th>
+      </tr>
+   </thead>
+   <tbody>
+       <tr>
+        <td>1</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVDug0CUwloyOLs_jzlU5Bo3_7zbzwcFjMK9v1rB19A&s=10"
+        class="rounded-circle"
+        style="width:50px;
+                height:50px"></td>
+        <td>Yuan</td>
+        <td>X PPLG 1</td>
+        <td><span class="badge bg-success">Aktif</span></td>
+        <td><span class="badge bg-warning">Edit</span><span class="badge bg-danger">Hapus</span></td>
+       </tr>
+       
+       <tr>
+         <td>2</td>
+         <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfPcOODDq0lMgb2JQqtJXX2BroXW428SHWq65cwiv0lA&s=10"
+         class="rounded-circle"
+         style="width:50px;
+                 height:50px"></td>
+         <td>Linghe</td>
+         <td>X PPLG 2</td>
+         <td><span class="badge bg-warning">Izin</span></td>
+         <td><span class="badge bg-warning">Edit</span><span class="badge bg-danger">Hapus</span></td>
+       </tr>
+       
+       <tr>
+        <td>3</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR70rWF9B-fnrYRD2CDb4XkH8kjyVEUYsk8g0LFIYV6kA&s=10"
+         class="rounded-circle"
+         style="width:50px;
+                 height:50px"></td>
+        <td>Lusi</td>
+        <td>X PPLG 3</td>
+        <td><span class="badge bg-danger">Tidak Hadir</span></td>
+        <td><span class="badge bg-warning">Edit</span><span class="badge bg-danger">Hapus</span></td>
+      </tr>
+   </tbody>
+</table>
+    
+    <nav class="d-flex justify-content-center mb-3">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="text-center align-middle">
+        <button class="btn btn-primary ">Tambah Data Siswa</button>
+        <button class="btn btn-outline-secondary">Eksplor Ke Excel</button>
+    </div>
+
+    
+</body>
+</html>
